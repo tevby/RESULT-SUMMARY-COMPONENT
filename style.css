@@ -1,0 +1,234 @@
+@font-face {
+    font-family: hansken Grotesk;
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format(truetype);
+}
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: hansken Grotesk;
+}
+body{
+    height:100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height:75%;
+    width: 75%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 75%;
+    width: 60%;
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left_section{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_section__content{
+    width:85%;
+    height:95%;
+    /* background-color: white; */
+}
+.left_section__header{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 1.5rem;
+}
+.circle_container{
+    height: 55%;
+    width: 95%;
+    /* background-color:hsl(241, 81%, 54%) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height:65%;
+    width:60%;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score_container{
+    width: 50%;
+    height: 75%;
+    /* background-color: black; */
+    color:  hsl(0, 0%, 100%);
+}
+.scoreh{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.scorep{
+    text-align: center;
+    font-size: 1rem;
+}
+.r_header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: hsl(221, 100%, 96%);
+}
+.r_comment{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    color: hsl(241, 100%, 89%);
+}
+.right_section{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.right_section__content{
+    width:85%;
+    height: 95%;
+    background-color: white;
+}
+.rsheader{
+    font-size: 1.5rem;
+    color: black;
+}
+.assess_cont{
+    height: 65%;
+    /* background-color: gray; */
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+.react_cont{
+    background-color: hsl(0, 100%, 82%);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.react_left{
+    display: flex;
+    align-items: center;
+    color: hsl(0, 100%, 67%);
+}
+.r_icon{
+    width: 2rem;
+    height: 2rem;
+}
+.react_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: 800;
+}
+/* .memo_cont{
+    background-color: hsl(39, 93%, 71%);
+    border-radius: 1rem;
+} */
+.memo_cont{
+    background-color: hsl(39, 93%, 71%);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.memo_left{
+    display: flex;
+    align-items: center;
+    color: hsl(39, 70%, 51%);
+}
+.m_icon{
+    width: 2rem;
+    height: 2rem;
+}
+.memo_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: 800;
+}
+.verb_cont{
+    background-color: hsl(166, 82%, 74%);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.verb_left{
+    display: flex;
+    align-items: center;
+    color: hsl(166, 100%, 37%);
+}
+.vb_icon{
+    width: 2rem;
+    height: 2rem;
+}
+.verb_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: 800;
+}
+.vis_cont{
+    background-color: hsl(234, 77%, 71%);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.vis_left{
+    display: flex;
+    align-items: center;
+    color:  hsl(234, 85%, 45%);
+}
+.vs_icon{
+    width: 2rem;
+    height: 2rem;
+}
+.vis_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: 800;
+}
+.button{
+    height: 3rem;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
